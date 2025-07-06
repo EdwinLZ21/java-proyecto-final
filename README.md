@@ -1,17 +1,23 @@
-# Proyecto Final Java - Screen Match 🎬
+# 💳 Simulador de Compras con Tarjeta de Crédito en Java
 
-Este es un proyecto hecho en Java como parte de los cursos de Alura. Modela películas, series y episodios y permite calcular tiempos y recomendar contenido.
+Este proyecto permite simular el comportamiento de una tarjeta de crédito a través de una aplicación de consola desarrollada en Java. El usuario establece un límite de crédito, registra compras con descripción y valor, y visualiza las transacciones ordenadas por monto.
 
-## Características 🛠️
-- Evaluación y media de títulos
-- Filtro de recomendación
-- Calculo de duración total
-- Interfaz orientada a objetos
+---
 
-## Cómo ejecutar el proyecto ⚙️
-1. Clona el repositorio
-2. Compila y ejecuta desde la clase `Principal`
+## 🚀 Funcionalidades principales
 
-```bash
-javac Principal.java
-java Principal
+- Establecer el límite de la tarjeta de crédito.
+- Registrar compras con nombre y valor.
+- Validar si una compra puede realizarse con el saldo disponible.
+- Mostrar lista de compras realizadas, ordenadas por valor.
+- Visualizar el saldo restante tras las transacciones.
+
+---
+
+## 🧩 Estructura del proyecto
+
+```text
+src/
+├── Principal.java           // Flujo de ejecución principal
+├── Compra.java              // Modelo de compra
+└── TarjetaDeCredito.java    // Modelo de tarjeta con saldo y lista de compras
